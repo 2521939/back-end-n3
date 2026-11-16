@@ -72,6 +72,14 @@ npm run test:coverage   # roda os testes e gera o relatório de cobertura
 
 O relatório HTML fica em `coverage/index.html`. A cobertura mínima exigida é de 80%.
 
+## Swagger
+
+```bash
+start .\coverage\index.html
+```
+
+Em um outro terminal, abra a pasta do projeto e use o comando acima.
+
 ## Análise de código (ESLint)
 
 ```bash
