@@ -75,7 +75,14 @@ O relatório HTML fica em `coverage/index.html`. A cobertura mínima exigida é 
 ## Swagger
 
 ```bash
+# WINDOWS
+
 start .\coverage\index.html
+
+# LINUX
+
+xdg-open ./coverage/index.html
+
 ```
 
 Em um outro terminal, abra a pasta do projeto e use o comando acima.
